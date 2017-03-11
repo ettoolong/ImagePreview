@@ -1,6 +1,0 @@
-content ettimagepreview chrome/content/
-locale ettimagepreview en-US chrome/locale/en-US/
-locale ettimagepreview zh-TW chrome/locale/zh-TW/
-locale ettimagepreview zh-CN chrome/locale/zh-CN/
-skin ettimagepreview classic/1.0 chrome/skin/default/
-overlay	chrome://browser/content/browser.xul chrome://ettimagepreview/content/imagepreviewOverlay.xul

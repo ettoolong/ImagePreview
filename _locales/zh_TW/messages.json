@@ -1,0 +1,74 @@
+{
+	"extName": {
+		"message": "Image Preview",
+		"description": ""
+	},
+	"extDescription": {
+		"message": "預覽鏈結圖片",
+		"description": ""
+	},
+	"optionPageTitle": {
+		"message": "Image Preview 偏好設定",
+		"description": ""
+	},
+	"previewHeight": {
+		"message": "預覽圖片高度",
+		"description": ""
+	},
+	"previewWithCtrl": {
+		"message": "只在按下 Ctrl 時預覽",
+		"description": ""
+	},
+	"previewPosition": {
+		"message": "預覽視窗的位置",
+		"description": ""
+	},
+	"posOnScreenCenter": {
+		"message": "螢幕正中央",
+		"description": ""
+	},
+	"posOnMouse": {
+		"message": "滑鼠位置",
+		"description": ""
+	},
+	"previewDelay": {
+		"message": "顯示延遲(毫秒)",
+		"description": ""
+	},
+	"autoHide": {
+		"message": "當滑鼠移出鏈結時自動隱藏彈出的預覽視窗",
+		"description": ""
+	},
+	"displayInfo": {
+		"message": "顯示圖片資訊",
+		"description": ""
+	},
+	"leftButtonClick": {
+		"message": "在預覽視窗上按下滑鼠左鍵",
+		"description": ""
+	},
+	"middleButtonClick": {
+		"message": "在預覽視窗上按下滑鼠中鍵",
+		"description": ""
+	},
+	"noAction": {
+		"message": "無動作",
+		"description": ""
+	},
+	"closeWindow": {
+		"message": "關閉預覽視窗",
+		"description": ""
+	},
+	"openImage": {
+		"message": "在新分頁顯示圖片",
+		"description": ""
+	},
+	"openInBackground": {
+		"message": "在新背景分頁顯示圖片",
+		"description": ""
+	},
+	"saveImage": {
+		"message": "圖片另存新檔",
+		"description": ""
+	}
+}

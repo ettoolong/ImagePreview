@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="options.css"/>
+    <script id="ttsfox-option" type="text/javascript" src="options.js"></script>
+    <title data-l10n-id="optionPageTitle">Image Preview Preferences</title>
+  </head>
+  <body>
+    <div>
+      <div style="display:inline-block;">
+        <div class="itemDiv">
+          <label for="previewHeight" data-l10n-id="previewHeight">Preview image height</label>
+          <input type="number" id="previewHeight">
+        </div>
+        <div class="itemDiv">
+          <input type="checkbox" id="previewWithCtrl">
+          <label for="previewWithCtrl" data-l10n-id="previewWithCtrl">Display preview image when ctrl Pressed</label>
+        </div>
+        <div class="itemDiv">
+          <div id="previewPosition" type="radioGroup">
+            <label data-l10n-id="previewPosition">Display position</label>
+            <input type="radio" id="previewPosition1" name="previewPosition" value="0">
+            <label for="previewPosition1" data-l10n-id="posOnScreenCenter">Center of screen</label>
+            <input type="radio" id="previewPosition2" name="previewPosition" value="1">
+            <label for="previewPosition2" data-l10n-id="posOnMouse">Near by mouse</label>
+          </div>
+        </div>
+        <div class="itemDiv">
+          <label for="previewDelay" data-l10n-id="previewDelay">Preview image height</label>
+          <input type="number" id="previewDelay">
+        </div>
+        <div class="itemDiv">
+          <input type="checkbox" id="autoHide">
+          <label for="autoHide" data-l10n-id="autoHide">Auto hide popup when mouse away from link</label>
+        </div>
+        <div class="itemDiv">
+          <input type="checkbox" id="displayInfo">
+          <label for="displayInfo" data-l10n-id="displayInfo">Display image information</label>
+        </div>
+        <div class="itemDiv">
+          <label data-l10n-id="leftButtonClick">Click mouse left button on preview window</label>
+          <select id="leftButtonClick" type="option">
+            <option value="0" data-l10n-id="noAction"></option>
+            <option value="1" data-l10n-id="closeWindow"></option>
+            <option value="2" data-l10n-id="openImage"></option>
+            <option value="3" data-l10n-id="openInBackground"></option>
+            <option value="4" data-l10n-id="saveImage"></option>
+          </select>
+        </div>
+        <div class="itemDiv">
+          <label data-l10n-id="middleButtonClick">Click mouse middle button on preview window</label>
+          <select id="middleButtonClick" type="option">
+            <option value="0" data-l10n-id="noAction"></option>
+            <option value="1" data-l10n-id="closeWindow"></option>
+            <option value="2" data-l10n-id="openImage"></option>
+            <option value="3" data-l10n-id="openInBackground"></option>
+            <option value="4" data-l10n-id="saveImage"></option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

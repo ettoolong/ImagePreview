@@ -1,0 +1,53 @@
+{
+  "description": "__MSG_extDescription__",
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "0.0.10",
+  "homepage_url": "https://github.com/ettoolong/ImagePreview",
+  "icons": {
+    "16": "icon/logo.png",
+    "32": "icon/logo.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
+      "strict_min_version": "51.0"
+    }
+  },
+
+  "author": "Ett Chung",
+
+  "developer": {
+    "name": "Ett Chung",
+    "url": "https://addons.mozilla.org/zh-TW/firefox/user/ett-chung/"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+
+  "default_locale": "en",
+
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

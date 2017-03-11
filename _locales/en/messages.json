@@ -1,0 +1,74 @@
+{
+	"extName": {
+		"message": "Image Preview",
+		"description": ""
+	},
+	"extDescription": {
+		"message": "Preview link image",
+		"description": ""
+	},
+	"optionPageTitle": {
+		"message": "Image Preview Preferences",
+		"description": ""
+	},
+	"previewHeight": {
+		"message": "Preview image height",
+		"description": ""
+	},
+	"previewWithCtrl": {
+		"message": "Display preview image when ctrl Pressed",
+		"description": ""
+	},
+	"previewPosition": {
+		"message": "Display position",
+		"description": ""
+	},
+	"posOnScreenCenter": {
+		"message": "Center of screen",
+		"description": ""
+	},
+	"posOnMouse": {
+		"message": "Near by mouse",
+		"description": ""
+	},
+	"previewDelay": {
+		"message": "Display delay (ms)",
+		"description": ""
+	},
+	"autoHide": {
+		"message": "Auto hide popup when mouse away from link",
+		"description": ""
+	},
+	"displayInfo": {
+		"message": "Display image information",
+		"description": ""
+	},
+	"leftButtonClick": {
+		"message": "Click mouse left button on preview window",
+		"description": ""
+	},
+	"middleButtonClick": {
+		"message": "Click mouse middle button on preview window",
+		"description": ""
+	},
+	"noAction": {
+		"message": "No action",
+		"description": ""
+	},
+	"closeWindow": {
+		"message": "Close preview window",
+		"description": ""
+	},
+	"openImage": {
+		"message": "View image in new tab",
+		"description": ""
+	},
+	"openInBackground": {
+		"message": "View image in new background tab",
+		"description": ""
+	},
+	"saveImage": {
+		"message": "Save image",
+		"description": ""
+	}
+}
