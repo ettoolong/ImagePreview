@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://ettimagepreview/locale/imagepreview.dtd">
+
+<prefwindow id="imagepreview-preferences"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            title="&imagepreviewpref.title;">
+  <prefpane id="generalpane">
+    <preferences>
+      <preference id="i-PreviewHeight" name="extensions.ettimagepreview.options.previewHeight" type="int"/>
+      <preference id="b-PreviewWithCtrl" name="extensions.ettimagepreview.options.previewWithCtrl" type="bool"/>
+      <preference id="i-PreviewPosition" name="extensions.ettimagepreview.options.previewPosition" type="int"/>
+      <preference id="i-PreviewDelay" name="extensions.ettimagepreview.options.previewDelay" type="int"/>
+      <preference id="b-AutoHide" name="extensions.ettimagepreview.options.autoHide" type="bool"/>
+      <preference id="b-DisplayInfo" name="extensions.ettimagepreview.options.displayInfo" type="bool"/>
+      <preference id="i-LeftButtonClick" name="extensions.ettimagepreview.options.leftButtonClick" type="int"/>
+      <preference id="i-MiddleButtonClick" name="extensions.ettimagepreview.options.middleButtonClick" type="int"/>
+    </preferences>
+    <vbox>
+      <hbox align="center">
+        <label value="&option_previewheight.label;"/>
+        <textbox preference="i-PreviewHeight" size="3" type="number" min="0" increment="20"/>
+        <label value="&option_previewheight2.label;"/>
+		  </hbox>
+      <checkbox preference="b-PreviewWithCtrl" label="&option_previewwithctrl.label;"/>
+      
+      <hbox align="center">
+        <label value="&option_previewposition.label;"/>
+        <menulist editable="false" preference="i-PreviewPosition">
+          <menupopup>
+            <menuitem label="&option_positioncenter.label;" value="0"/>
+            <menuitem label="&option_positionmouse.label;" value="1"/>
+          </menupopup>
+        </menulist>
+      </hbox>
+
+      <hbox align="center">
+        <label value="&option_previewdelay.label;"/>
+        <textbox preference="i-PreviewDelay" size="3" type="number" min="0" increment="10"/>
+      </hbox>
+      
+      <checkbox preference="b-AutoHide" label="&option_autohide.label;"/>
+      <checkbox preference="b-DisplayInfo" label="&option_displayinfo.label;"/>
+
+      <hbox align="center">
+        <label value="&option_leftbuttonclick.label;"/>
+        <menulist editable="false" preference="i-LeftButtonClick">
+          <menupopup>
+            <menuitem label="&option_donothing.label;" value="0"/>
+            <menuitem label="&option_closewindow.label;" value="1"/>
+            <menuitem label="&option_openimage.label;" value="2"/>
+            <menuitem label="&option_openinbackground.label;" value="3"/>
+            <menuitem label="&option_saveimage.label;" value="4"/>
+          </menupopup>
+        </menulist>
+      </hbox>
+
+      <hbox align="center">
+        <label value="&option_middlebuttonclick.label;"/>
+        <menulist editable="false" preference="i-MiddleButtonClick">
+          <menupopup>
+            <menuitem label="&option_donothing.label;" value="0"/>
+            <menuitem label="&option_closewindow.label;" value="1"/>
+            <menuitem label="&option_openimage.label;" value="2"/>
+            <menuitem label="&option_openinbackground.label;" value="3"/>
+            <menuitem label="&option_saveimage.label;" value="4"/>
+          </menupopup>
+        </menulist>
+      </hbox>
+                  
+    </vbox>
+  </prefpane>
+</prefwindow>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{D0A81AC1-3B12-4cec-AA8D-40EBDC4241EA}</em:id>
+    <em:version>0.0.11.1-signed.1-signed</em:version>
+    <em:type>2</em:type>
+
+    <em:targetApplication><!-- Firefox -->
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>16.0</em:minVersion>
+        <em:maxVersion>25.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Image Preview</em:name>
+    <em:description>Preview link image</em:description>
+    <em:creator>ettoolong@hotmail.com</em:creator>
+    <em:contributor>浩(forum.moztw.org)</em:contributor>
+    <em:contributor>kesdoputr(forum.moztw.org)</em:contributor>
+    <em:contributor>talan619(forum.moztw.org)</em:contributor>
+    <em:iconURL>chrome://ettimagepreview/skin/logo.png</em:iconURL>    
+    <em:optionsURL>chrome://ettimagepreview/content/options.xul</em:optionsURL>
+  </Description>
+</RDF>

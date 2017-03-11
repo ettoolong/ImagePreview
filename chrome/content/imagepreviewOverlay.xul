@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://ettimagepreview/skin/imagepreview.css" type="text/css"?>
+<!DOCTYPE window [
+<!ENTITY % imagepreviewDTD SYSTEM "chrome://ettimagepreview/locale/imagepreview.dtd" >
+%imagepreviewDTD;
+<!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd" >
+%browserDTD;
+]>
+<overlay id="imagepreview-Overlay" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://ettimagepreview/content/imgurPicLoader.js"/>
+<script type="application/x-javascript" src="chrome://ettimagepreview/content/imagepreviewOverlay.js"/>
+<script type="application/x-javascript" src="chrome://browser/content/utilityOverlay.js"/>
+
+  <popupset>
+    <menupopup id="EttIP_contentAreaContextMenu" onpopupshowing="EttImagePreview.popupshowing(event, this);" onpopuphidden="EttImagePreview.popuphidden(event, this);" >
+      <menuitem id="EttIP_menuEx-context-viewimage" label="&viewImageCmd.label;" accesskey="&viewImageCmd.accesskey;" oncommand="EttImagePreview.viewimage(event);" onclick="checkForMiddleClick(this, event);"/>
+      <menuitem id="EttIP_menuEx-context-copyimage-contents" label="&copyImageContentsCmd.label;" accesskey="&copyImageContentsCmd.accesskey;" oncommand="goDoCommand('cmd_copyImageContents');"/>
+      <menuitem id="EttIP_menuEx-context-copyimage" label="&copyImageCmd.label;" accesskey="&copyImageCmd.accesskey;" oncommand="EttImagePreview.copyMediaLocation(event);"/>
+      <menuseparator id="EttIP_menuEx-context-sep-copyimage"/>
+      <menuitem id="EttIP_menuEx-context-saveimage" label="&saveImageCmd.label;" accesskey="&saveImageCmd.accesskey;" oncommand="EttImagePreview.saveimage(event);"/>
+      <menuitem id="EttIP_menuEx-context-sendimage" label="&emailImageCmd.label;" accesskey="&emailImageCmd.accesskey;" oncommand="EttImagePreview.sendMedia();"/>
+      <menuitem id="EttIP_menuEx-context-setDesktopBackground" label="&setDesktopBackgroundCmd.label;" accesskey="&setDesktopBackgroundCmd.accesskey;" oncommand="EttImagePreview.setDesktopBackground();"/>
+      <menuitem id="EttIP_menuEx-context-viewimageinfo" label="&viewImageInfoCmd.label;" accesskey="&viewImageInfoCmd.accesskey;" oncommand="EttImagePreview.viewImageInfo();"/>
+    </menupopup>
+  </popupset>
+  
+	<popupset id="mainPopupSet">
+		<panel id="imagepreview-popup" noautofocus="true" onpopuphiding="EttImagePreview.previewHiding(event);" onpopupshown="EttImagePreview.previewShown(event);">
+      <vbox id="imagepreview-loading">
+		    <image/>
+		  </vbox>
+      <vbox id="imagepreview-error" style="display:none;">
+		    <image/>
+		  </vbox>
+		  <stack>
+		    <vbox id="imagepreview-previewArea">
+		    </vbox>
+		    <label id="imagepreview-info" hidden="false"/>
+      </stack>
+		</panel>
+	</popupset>
+</overlay>
+

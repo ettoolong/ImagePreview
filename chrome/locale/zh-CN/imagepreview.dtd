@@ -1,0 +1,17 @@
+﻿<!ENTITY imagepreviewpref.title "Image Preview偏好选项">
+<!ENTITY option_previewheight.label "预览图片高度">
+<!ENTITY option_previewheight2.label "(0 = 原始大小)">
+<!ENTITY option_previewwithctrl.label "只在按下Ctrl时预览">
+<!ENTITY option_previewposition.label "预览窗口的位置">
+<!ENTITY option_positioncenter.label "屏幕正中央">
+<!ENTITY option_positionmouse.label "鼠标位置">
+<!ENTITY option_previewdelay.label "显示延迟(毫秒)">
+<!ENTITY option_autohide.label "当鼠标移出键结时自动隐藏弹出的预览窗口">
+<!ENTITY option_displayinfo.label "显示图片信息">
+<!ENTITY option_leftbuttonclick.label "在预览窗口上点击鼠标左键">
+<!ENTITY option_middlebuttonclick.label "在预览窗口上点击鼠标中键">
+<!ENTITY option_donothing.label "无动作">
+<!ENTITY option_closewindow.label "关闭预览窗口">
+<!ENTITY option_openimage.label "在新分页显示图片">
+<!ENTITY option_openinbackground.label "在新背景分页显示图片">
+<!ENTITY option_saveimage.label "图片另存新文件">

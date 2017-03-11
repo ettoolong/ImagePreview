@@ -1,0 +1,17 @@
+﻿<!ENTITY imagepreviewpref.title "Image Preview preferences">
+<!ENTITY option_previewheight.label "Preview image height">
+<!ENTITY option_previewheight2.label "(0 = Original size)">
+<!ENTITY option_previewwithctrl.label "Display preview image when ctrl Pressed">
+<!ENTITY option_previewposition.label "Display position">
+<!ENTITY option_positioncenter.label "Center of screen">
+<!ENTITY option_positionmouse.label "Near by mouse">
+<!ENTITY option_previewdelay.label "Display delay (ms)">
+<!ENTITY option_autohide.label "Auto hide popup when mouse away from link">
+<!ENTITY option_displayinfo.label "Display image information">
+<!ENTITY option_leftbuttonclick.label "Click mouse left button on preview window">
+<!ENTITY option_middlebuttonclick.label "Click mouse middle button on preview window">
+<!ENTITY option_donothing.label "No action">
+<!ENTITY option_closewindow.label "Close preview window">
+<!ENTITY option_openimage.label "View image in new tab">
+<!ENTITY option_openinbackground.label "View image in new background tab">
+<!ENTITY option_saveimage.label "Save image">
